@@ -17,4 +17,12 @@ public class TestMathUtil {
         //如果有一天这里测试不通过，说明MathUtil.max方法被该出问题了
         Assert.assertEquals(result,a);
     }
+
+    @Test
+    public void testMin(){
+        Assert.assertEquals(MathUtil.min(30,20),20);
+        Assert.assertEquals(MathUtil.min(10,6),6);
+        Assert.assertEquals(MathUtil.min(20,2),2);
+        Assert.assertEquals(MathUtil.min(30,1),1);
+    }
 }

@@ -13,4 +13,15 @@ public class MathUtil {
 
                 return a>b?b:a;// 这是错误的
     }
+
+
+public static int min(int a,int b) {
+    if (a > b) {
+        //假设这里还有很多逻辑
+        return b;
+    } else {
+        //假设这里还有很多逻辑
+        return a;
+    }
+}
 }
